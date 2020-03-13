@@ -1,0 +1,5 @@
+days = int(input('Enter the number of days'))
+hours = int(input('Enter the number of hours'))
+min = int(input('Enter the number of minutes'))
+sec = int(input('Enter the number of sec'))
+print('The total number of seconds %.2f'%((((days*24)+hours)*60+min)*60+sec))
